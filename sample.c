@@ -8,3 +8,7 @@ int main(){
     printf("Hello World %s using C Language", name);
     return 0;
 }
+
+void greet(const char* name){
+    printf("Hello, %s! Activity2B.\n", name);
+}
